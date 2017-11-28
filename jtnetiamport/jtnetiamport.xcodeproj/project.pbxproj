@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3EA59EBB1FCD174D0057F296 /* AppDelegate+AppDelegate_IamportJtnet.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EA59EBA1FCD174D0057F296 /* AppDelegate+AppDelegate_IamportJtnet.m */; };
 		3EECEBB81CF74047003277CA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EECEBB71CF74047003277CA /* main.m */; };
 		3EECEBBB1CF74047003277CA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EECEBBA1CF74047003277CA /* AppDelegate.m */; };
 		3EECEBBE1CF74047003277CA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EECEBBD1CF74047003277CA /* ViewController.m */; };
@@ -35,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3EA59EB91FCD174D0057F296 /* AppDelegate+AppDelegate_IamportJtnet.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AppDelegate+AppDelegate_IamportJtnet.h"; sourceTree = "<group>"; };
+		3EA59EBA1FCD174D0057F296 /* AppDelegate+AppDelegate_IamportJtnet.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "AppDelegate+AppDelegate_IamportJtnet.m"; sourceTree = "<group>"; };
 		3EECEBB31CF74047003277CA /* jtnetiamport.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = jtnetiamport.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3EECEBB71CF74047003277CA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3EECEBB91CF74047003277CA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -110,6 +113,8 @@
 				3EECEBC41CF74047003277CA /* LaunchScreen.storyboard */,
 				3EECEBC71CF74047003277CA /* Info.plist */,
 				3EECEBB61CF74047003277CA /* Supporting Files */,
+				3EA59EB91FCD174D0057F296 /* AppDelegate+AppDelegate_IamportJtnet.h */,
+				3EA59EBA1FCD174D0057F296 /* AppDelegate+AppDelegate_IamportJtnet.m */,
 			);
 			path = jtnetiamport;
 			sourceTree = "<group>";
@@ -207,6 +212,7 @@
 				TargetAttributes = {
 					3EECEBB21CF74047003277CA = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = TLAUHUFRRV;
 					};
 					3EECEBCB1CF74047003277CA = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -270,6 +276,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3EA59EBB1FCD174D0057F296 /* AppDelegate+AppDelegate_IamportJtnet.m in Sources */,
 				3EECEBBE1CF74047003277CA /* ViewController.m in Sources */,
 				3EECEBBB1CF74047003277CA /* AppDelegate.m in Sources */,
 				3EECEBB81CF74047003277CA /* main.m in Sources */,
@@ -415,6 +422,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = TLAUHUFRRV;
 				INFOPLIST_FILE = jtnetiamport/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.siot.jtnetiamport;
@@ -426,6 +434,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = TLAUHUFRRV;
 				INFOPLIST_FILE = jtnetiamport/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.siot.jtnetiamport;
